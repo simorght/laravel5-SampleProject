@@ -1,0 +1,65 @@
+
+
+a.downArrow {
+	position: relative;
+	background: green;
+	display: inline-block;
+	padding: 1px;
+	color: #FFF;
+	text-decoration: none;
+	border-radius: 3px;
+}
+a:hover.downArrow {
+	background: #000;
+}
+a.downArrow:after {
+	position: absolute;
+	top: 100%;
+	right: 50%;
+	margin-right: -5px;
+	content: ' ';
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-top: 5px solid green;
+}
+a:hover.downArrow:after {
+	border-top-color: #000;
+}
+
+
+
+
+
+
+
+a.upArrow {
+	position: relative;
+	background: green;
+	display: inline-block;
+	padding: 1px;
+	color: #FFF;
+	text-decoration: none;
+	border-radius: 3px;
+}
+a:hover.upArrow {
+	background: #000;
+}
+a.upArrow:after {
+	position: absolute;
+	top: -50%;
+	right: 50%;
+	margin-right: -5px;
+	content: ' ';
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid green;
+	border-top: 5px solid transparent;
+}
+a:hover.upArrow:after {
+	border-bottom-color: #000;
+}

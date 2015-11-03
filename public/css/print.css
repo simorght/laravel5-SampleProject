@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'BYekan';
+  src: url('fonts/BYekand41d.html?#') format('eot'),  /* IE6–8 */
+       url('fonts/BYekan.html') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('fonts/BYekan-2.html') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+#top_menu, .main-navigation, .social_item, #right_bar, .go_top, .post-categories, .article_tools, #respond, .comment_area .reply, .comment_area .comment-meta,
+    .relative_post, .navig_page{
+    display: none;
+}
+
+body{
+    font-family: BYekan, B Yekan, b yekan, Tahoma;
+    direction: rtl;
+}
+
+
+.logo h1 a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    color: #000;
+}
+
+.article{
+    margin-top: 20px;
+    border-top: 3px solid #ff9700;
+}
+
+a.title{
+    font: normal 28px BYekan, B Yekan, b yekan, Tahoma;
+    text-decoration: none;
+    color: #000;
+}
+
+p{
+    font: normal 13px;
+}
+
+.comment_area, .tags{
+    border: 2px solid #ccc;
+    margin: 30px 0;
+}
+
+.comment_area ul {
+    list-style: none;
+}
+
+.comment_area ul li{
+    float: right;
+    margin-left: 30px;
+}
+

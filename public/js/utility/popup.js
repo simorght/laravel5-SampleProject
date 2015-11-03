@@ -1,0 +1,3 @@
+function popupshow(Message,Type,autoclosetime){
+autoclosetime = typeof autoclosetime !== 'undefined' ? autoclosetime : false;	
+if (Type=="error"){$.fallr('show',{buttons:{button1:{text:'Close',danger:false}},icon:'error',width:'400px',height:'auto',content:'<p>'+Message+'</p>',autoclose:autoclosetime,closeKey:true,closeOverlay:true});} else if (Type=="lamp"){$.fallr('show',{buttons:{button1:{text:'Close',danger:false}},icon:'lamp',width:'400px',height:'auto',content:'<p>'+Message+'</p>',autoclose:autoclosetime,closeKey:true,closeOverlay:true});}else{$.fallr('show',{buttons:{button1:{text:'Close',danger:false}},icon:'check',width:'400px',height:'auto',content:'<p>'+Message+'</p>',autoclose:autoclosetime,closeKey:true,closeOverlay:true});}}			
